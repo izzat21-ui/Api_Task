@@ -9,11 +9,9 @@ class CreateTaskView(CreateAPIView):
     queryset = Task.objects.all()
     serializer_class = TaskSerializer
 
-
 class GetTaskView(ListAPIView):
     queryset = Task.objects.all()
     serializer_class = TaskSerializer
-
 
 class TaskDetailView(RetrieveAPIView):
     queryset = Task.objects.all()
