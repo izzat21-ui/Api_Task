@@ -1,0 +1,9 @@
+from rest_framework.generics import ListCreateAPIView
+
+from api.models import Task
+from api.serializers import TaskSerializer
+
+
+class CreateTaskView(ListCreateAPIView):
+    queryset = Task.objects.all()
+    serializer_class = TaskSerializer
