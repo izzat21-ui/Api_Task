@@ -15,5 +15,5 @@
 
 1. Клонировать репозиторий  
 ```bash
-git clone <repository-url>
-cd <project-folder>
+git clone <https://github.com/izzat21-ui/Api_Task.git>
+cd <Api_Task>
